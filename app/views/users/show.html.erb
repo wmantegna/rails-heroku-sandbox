@@ -2,7 +2,10 @@
 
 <p>
   <strong>Avatars:</strong>
-  <%= @user.avatars %>
+  <%= @user.avatars %><br>
+  <% @user.avatars.each do |a| %>
+    <%= image_tag a.url, style: 'width: 100px; height: 100px;' %>
+  <% end %>
 </p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
