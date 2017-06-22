@@ -13,6 +13,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # added
 gem 'simple_form'
 gem 'bootstrap-sass', '~> 3.2.0'
+gem 'figaro'
 
 
 group :development do
