@@ -15,11 +15,15 @@ gem 'simple_form'
 gem 'bootstrap-sass', '~> 3.2.0'
 
 gem 'carrierwave', '~> 1.0'
+gem 'carrierwave-imageoptimizer'
+gem "fog-aws"
+
 
 
 group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'figaro', '~> 1'
 end
 group :development, :test do
   gem 'sqlite3'
